@@ -63,7 +63,7 @@ class CupertinoModalSheetRoute<T> extends PageRouteBuilder<T> {
       }
       constrainsts = BoxConstraints(
           maxWidth: maxSize.width,
-          maxHeight: min(size.height * 0.9, maxSize.height));
+          maxHeight: min(size.height * 0.98, maxSize.height));
       borderRadius = const BorderRadius.all(Radius.circular(sheetCornerRadius));
     } else {
       constrainsts = BoxConstraints(
