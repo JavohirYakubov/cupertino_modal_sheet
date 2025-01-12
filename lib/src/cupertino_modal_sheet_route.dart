@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/services.dart';
 
-const double sheetOffset = 10;
+const double sheetOffset = 0;
 const double displayCornerRadius = 38.5;
 const double sheetCornerRadius = 10;
 const double scaleFactor = 1 / 12;
