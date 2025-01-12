@@ -217,7 +217,7 @@ class CupertinoModalSheetRoute<T> extends PageRouteBuilder<T> {
     if (paddingTop <= 20) {
       paddingTop += 10;
     }
-    return paddingTop;
+    return 0;
   }
 
   Widget _stackTransition(
